@@ -1,0 +1,160 @@
+body{
+    margin: 0;
+    text-align:center;
+    font-family: 'Quicksand', sans-serif;
+}
+nav {
+    display: flex;
+    justify-content: flex-end;
+    background-color:lightcoral;
+    padding: 10px;
+    border-bottom: solid gray 5px;
+}
+
+nav a:link {
+    text-decoration: none;
+    color:lightseagreen;
+}
+
+nav a:visited {
+    color:seashell;
+}
+
+nav a:hover {
+    font-weight: bold;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: lightcoral;
+    border-top: solid gray 5px; 
+}
+
+footer a:link {
+    text-decoration: none;
+    color:lightseagreen;
+}
+
+footer a:visited {
+    color:seashell;
+}
+
+footer a:hover {
+    font-weight: bold;
+}
+
+.section1 {
+    height: 650px;
+    background-color:lightseagreen;
+}
+
+#starfish {
+    position:absolute;
+    top:90px;
+    left:30px;
+    border-radius:10px;
+}
+
+#seashell {
+    position:absolute;
+    top:90px;
+    right: 30px;
+}
+
+
+.section2 {
+    padding: 50px;
+}
+
+.section2 a:link {
+    color: blue;
+    text-decoration: none;
+}
+
+.section2 a:hover {
+    font-weight: bold;
+}
+
+#headshot {
+    border-radius:75px;
+}
+
+.three-col {
+    display:grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin:10px;
+}
+
+hr {
+    border: 2px dotted lightcoral;
+    margin:0;
+    background-color:lightseagreen;
+}
+
+.one-col {
+    display:grid;
+    background-color:lightseagreen;
+    grid-template-columns: 400px 1fr;
+    grid-template-columns: 33%;
+    margin:0px;
+    padding:10px;
+    justify-items:center;
+    align-items:center;
+    justify-content: center;
+}
+
+.wrapper {
+    display:flex;
+    padding:10px;
+    align-self: center;
+    justify-self: center;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card_img {
+    display:block;
+    width:100%;
+    height:200px;
+    object-fit:cover;
+}
+
+.card_content {
+    display: flex;
+    align-self:center;
+    justify-self:center;
+    display:block;
+    padding: 3rem 3rem;
+}
+
+.card a:link {
+    text-decoration: none;
+}
+
+.card a:hover {
+    font-weight:bold;
+}
+
+.splash {
+    background-color:aquamarine;
+    padding: 200px 0 0 0;
+}
+h1 {
+    font-family: 'Handlee', cursive;
+    color: lightcoral;
+    margin-top: 0px;
+    padding-top: 300px;
+    font-size:50px;
+}
+h2{
+    color: palevioletred;
+}
